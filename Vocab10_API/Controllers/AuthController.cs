@@ -16,7 +16,7 @@ namespace Vocab10_API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IConfiguration _config;
-        private readonly UserRepository _userRepository; // Replace with your actual User repository for accessing user data
+        private readonly UserRepository _userRepository;
 
         public AuthController(IConfiguration config, UserRepository userRepository)
         {
